@@ -1,0 +1,150 @@
+body{
+    background-color: yellow;
+}
+.padre{
+    background-color: green;
+    padding: 5px;
+}
+header{
+    width: 100%;
+        background-color: antiquewhite;
+}
+.logo{
+    width: 50px;
+    height:50px ;
+    padding: 5px;
+}
+.titulo{
+    background-color: antiquewhite;
+    width:100% ;
+    height:50px ;
+    color: blue;
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+    margin: 5px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(139, 218, 60);
+    margin: 5px;
+}
+.caja{
+    width: 100px;
+    height: 35px;
+    border: 3px;
+    border-style: outset;
+    border-radius: 10px;
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+}
+section{
+    background-color: aliceblue;
+    margin: 5px;
+}
+footer{
+    background-color: rgb(242, 226, 226);
+    margin: 5px;
+    padding: 5px;
+    width: 99%;
+    height: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+section{
+    padding:20px;
+    background:#f4f4f4;
+}
+
+h2{
+    color:#ee7300;
+}
+
+.so{
+    display:flex;
+    gap:20px;
+}
+
+.so-item{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0px 0px 5px gray;
+}
+
+.biografia {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.biografia img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.biografia h2 {
+    margin-top: 0;
+    color: red;
+}
+.biografia p {
+    text-align: justify;
+}
+/
+
+.contenido{
+      font-family: Cambria, Georgia, serif;
+}
+
+.contenido article{
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contenido h2{
+    color: red;
+}
+
+.contenido p,
+.contenido ul,
+.contenido ol{
+    font-size:16px;
+    line-height:1.6;
+    text-align: justify;
+}
+
+/* imagen dentro del articulo */
+.contenido img{
+    width:200px;
+    float:right;
+    margin:10px;
+    border-radius:5px;
+}
+.logo img{
+    width: 70px;    
+    height: 70px;   
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+.logo{
+    padding: 2px;
+    margin: 0;
+}
